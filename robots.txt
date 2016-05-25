@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+
+Sitemap: http://www.derikng.com/sitemap-2016-05-24-23-44-37.xml
