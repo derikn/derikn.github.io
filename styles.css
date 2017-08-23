@@ -1,9 +1,9 @@
 body {
 	background-color: #FF4136 !important;
+	font-family: 'Nunito', sans-serif !important;
 }
 
 .content {
-	margin-top:300px;
 	color:white;
 }
 
@@ -14,4 +14,12 @@ body {
 .black{
 
 	color:black;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
 }
