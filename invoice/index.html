@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>BACI | Invoicing App</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+    <!-- Custom styles for this template -->
+    <link href="narrow-jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Current Requests<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="admin.html">Admin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help</a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted"><a href="index.html">Requests & Proposals</a></h3>
+      </div>
+<h2>Current list of requests</h2>
+      <table id="example" class="table display" cellspacing="0" width="100%">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Request Name</th>
+      <th>Category</th>
+      <th>Date Posted</th>
+      <th>Proposal Submit Link</th>
+      <th>Submissions(Admin)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><a href="request.html">Creation of a Requests & Proposals App</a></td>
+      <td>Technology</td>
+      <td>09/14/2017</td>
+      <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdFUWTtVph7-c92FiHWhu4yInLtM163vH_yXObFMWgQ-aY3RQ/viewform">Submit Proposal</a></td>
+      <td><a href="https://docs.google.com/spreadsheets/d/1hBGjYPkjQNk8Az5iiWDwiGxOxb8y9yavvreD6e2NCiE/edit#gid=1780862040">Link</a>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Fixing the Fridge</td>
+      <td>Office</td>
+      <td>09/14/2017</td>
+      <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSd0a2WrQEKF4Brx2mvLLS0RG-oNFQhWWPiw6a1f6IdKzIQ00w/viewform">Submit Proposal</a></td>
+      <td>Link</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Making Lunch on Thursday</td>
+      <td>Office</td>
+      <td>09/14/2017</td>
+      <td><a href="#">Submit Proposal</a></td>
+      <td>Link</a>
+    </tr>
+  </tbody>
+</table>
+    
+
+      <footer class="footer">
+        <p>&copy; BACI 2017</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+        <script>
+    $(document).ready(function() {
+    $('#example').DataTable();
+} );</script>
+  </body>
+</html>
