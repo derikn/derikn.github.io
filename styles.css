@@ -1,15 +1,11 @@
 body {
-	background-color: #FF4136 !important;
-	font-family: 'Nunito', sans-serif !important;
+	font-family: 'Barlow', sans-serif !important; 
+
 }
 
 .content {
-	color:white;
 }
 
-.bungee-font {
-	font-family: 'Bungee', cursive;
-}
 
 .black{
 
